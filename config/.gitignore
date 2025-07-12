@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django default
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.django-venv/
+
+# Secrets
+.env
+
+# Docker / OS stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+.DS_Store
