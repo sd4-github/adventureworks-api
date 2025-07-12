@@ -1,8 +1,0 @@
-.env
-*.sqlite3
-__pycache__/
-*.pyc
-*.log
-/staticfiles/
-media/
-.env.*
