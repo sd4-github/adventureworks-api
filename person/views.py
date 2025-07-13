@@ -3,6 +3,7 @@ from .models import Person
 from .serializers import PersonSerializer
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
 
 class PersonPagination(PageNumberPagination):
     def get_paginated_response(self, data):
@@ -19,3 +20,4 @@ class PersonViewset(viewsets.ModelViewSet):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
     pagination_class = PersonPagination
+    permission_classes = [IsAuthenticated]
