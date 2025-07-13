@@ -38,3 +38,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env  # and update with local values
 python manage.py runserver
+```
+## for local setup of adventureworks db checkout issue 1 or readme of original repo
+https://github.com/lorint/AdventureWorks-for-Postgres
