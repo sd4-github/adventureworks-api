@@ -16,7 +16,7 @@ class PersonPagination(PageNumberPagination):
             'results': data
         })
 
-class PersonViewset(viewsets.ModelViewSet):
+class PersonViewset(viewsets.ReadOnlyModelViewSet):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
     pagination_class = PersonPagination
