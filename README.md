@@ -1,6 +1,6 @@
 # AdventureWorks API
 
-A high-performance, industry-grade Django REST Framework (DRF) API built on top of the AdventureWorks PostgreSQL database. Includes Redis caching, JWT authentication, and is deployed on Heroku.
+A Django REST Framework (DRF) API built on top of the AdventureWorks PostgreSQL database. Includes Redis caching, JWT authentication, and is deployed on Heroku.
 
 ---
 
