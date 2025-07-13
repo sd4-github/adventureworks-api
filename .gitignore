@@ -19,3 +19,6 @@ env/
 *.pyc
 *.pyo
 .DS_Store
+
+localhost.postman_environment.json
+
