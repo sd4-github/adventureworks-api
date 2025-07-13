@@ -7,7 +7,7 @@ A Django REST Framework (DRF) API built on top of the AdventureWorks PostgreSQL 
 ## 🚀 Features
 
 - Django 5 + DRF
-- PostgreSQL (AdventureWorks schema hosted on Heroku)
+- PostgreSQL (AdventureWorks schema)
 - Redis integration via django-redis
 - JWT Authentication
 - Paginated API
