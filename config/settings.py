@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'purchasing',
     'production',
     'sales',
+    'drf_spectacular',
 
 ]
 
@@ -169,5 +170,12 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 100
+    'PAGE_SIZE': 100,
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'AdventureWorks API',
+    'DESCRIPTION': 'DRF API for AdventureWorks data',
+    'VERSION': '1.0.0',
 }
